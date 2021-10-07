@@ -333,12 +333,12 @@ tokens.forEach(async (token) => {
   // let priceUSDperBTConCoinbase = await priceusdperbtconcoinbase()
   // console.log(token,priceUSDperBTConCoinbase)
   // console.log("price:", priceUSDperBTConCoinbase)
-  // pricePerToken(token);
+  pricePerToken(token);
 })
 
 algos.forEach(async (alg) => {
   dogehashrate();
   // ltc();
-  // getMiningMarketOrders(alg);
-  // getMiningMarketAvail(alg);
+  getMiningMarketOrders(alg);
+  getMiningMarketAvail(alg);
 });
